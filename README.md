@@ -2,4 +2,5 @@
 Swift iOS Development.
 <hr/>
 100 days of Swift.
-Swift Development Basics.
+Swift Playgrounds - Data Types etc...
+Swift Development Basics. (functions, objects, oop, etc..)
