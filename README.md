@@ -1,4 +1,4 @@
-# swift5.x
+# swift5
 Swift iOS Development.
 <hr/>
 100 days of Swift.
