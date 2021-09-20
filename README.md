@@ -1,5 +1,4 @@
-# swift5
-Swift iOS Development.
+# Swift 5
 <hr/>
 100 days of Swift.<br/>
 Swift Playgrounds - Data Types etc...
