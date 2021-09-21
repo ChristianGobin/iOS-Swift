@@ -50,7 +50,7 @@ func intStrFunc(str: String, int: Int){
 }
 
 // !void function
-
+// return Int using -> operator
 func thisIsNotVoid(x: Int) -> Int {
     return x
 }
