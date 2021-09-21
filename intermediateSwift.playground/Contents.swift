@@ -32,10 +32,28 @@ var kidsCar = carTable["Kid"]!
 print(kidsCar)
 
 
-// functions
+// functions (void and !void)
 
 func basicFunction(x : String){
     print("Hello \(x)")
 }
 
 basicFunction(x: "Kid")
+
+
+func intStrFunc(str: String, int: Int){
+    var x = 1
+    while x <= int {
+        print(str)
+        x += 1
+    }
+}
+
+// !void function
+
+func thisIsNotVoid(x: Int) -> Int {
+    return x
+}
+
+print(thisIsNotVoid(x: 43))
+intStrFunc(str: "Kid", int: 3)
