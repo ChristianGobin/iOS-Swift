@@ -83,7 +83,15 @@ thisTakesArg(myArg: "Christian")
 
 
 //Optionals
+// Assignment
+// Write a function that takes a string? and if its nill print "ItSNill
 
-var myOptionalString : String? = "Spoon"
-print(myOptionalString)
+func isItNil(userStr : String?){
+    if(userStr == nil){
+        print("This is Nil")
+    } else {
+        print(userStr)
+    }
+}
 
+isItNil(userStr: nil)
