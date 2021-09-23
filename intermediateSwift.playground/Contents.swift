@@ -57,3 +57,33 @@ func thisIsNotVoid(x: Int) -> Int {
 
 print(thisIsNotVoid(x: 43))
 intStrFunc(str: "Kid", int: 3)
+
+// Review
+var anotherDict : [String : String] = [:]
+var someSet : Set = [22, 22, 24]
+var someArr = ["a", "b"]
+
+
+//void func
+func thisIsVoid(){
+    print(1)
+}
+
+//not void
+func notVoid() -> String {
+    return "This"
+}
+
+//takes string arg
+func thisTakesArg(myArg : String){
+    print(myArg)
+}
+
+thisTakesArg(myArg: "Christian")
+
+
+//Optionals
+
+var myOptionalString : String? = "Spoon"
+print(myOptionalString)
+
