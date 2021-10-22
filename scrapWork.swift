@@ -1,11 +1,16 @@
-var topThreeMovies = ["GoodFellas", "Godfather", "Oh Hello on Broadway"]
-for movie in topThreeMovies {
-	print(movie)
+import Foundation
+
+// Array declaration with type specified
+var myItems : [String] = ["Christian", "Orlanys"]
+
+// Passing array as argument to function
+func printsEachElement(nums : [String]){
+	
+	// For Each Loop used.
+	for item in nums {
+		print(item)
+	}
 }
 
-// Tuples and sets
-
-var myNames = ("Christian", "Hari", "Larry")
-print(myNames.2)
-
-// Sets
+// Called function and passed array to function
+printsEachElement(nums: myItems)
