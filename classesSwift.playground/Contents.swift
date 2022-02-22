@@ -95,3 +95,12 @@ struct Computer {
 
 var mba = Computer(color: .Silver, brand: "Apple", size: 16)
 print(mba.color)
+
+// Switch Statements
+var someAge = 90
+switch someAge {
+case 0...89 :
+    print("Somethings")
+default :
+    print("Youre old")
+}
