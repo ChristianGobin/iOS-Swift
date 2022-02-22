@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 // Needs to be initialized with default values
 class Warrior {
     // Properties and Methods
@@ -47,7 +48,7 @@ class SmartPhone {
     var brand : String = ""
     var screenSize : Int = 0
     var operatingSystem : String = ""
-    var color : colors = .blank
+    var color : String = ""
     
     func printDesc(){
         print("Made by \(brand). Operation System : \(operatingSystem)")
@@ -60,3 +61,37 @@ iphoneXR.brand = "Apple"
 iphoneXR.operatingSystem = "iOS 14"
 print(iphoneXR.color)
 iphoneXR.printDesc()
+
+// Structs don't need initialized properties.
+struct Laptop {
+    var numOfLegs : Int
+    var typeOfLaptop : String
+}
+
+var macbookPro = Laptop(numOfLegs: 4, typeOfLaptop: "Apple")
+print(macbookPro.typeOfLaptop)
+
+// Enums are like multiple choice answers.
+enum Compass {
+    case north
+    case south
+    case east
+    case west
+}
+
+// Create a class or struct and add enums to it
+
+enum MacbookAirColors {
+    case Gold
+    case SpaceGray
+    case Silver
+}
+
+struct Computer {
+    var color : MacbookAirColors
+    var brand : String
+    var size : Int
+}
+
+var mba = Computer(color: .Silver, brand: "Apple", size: 16)
+print(mba.color)
